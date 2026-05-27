@@ -1,2 +1,2 @@
-# mlops-assignment-v2
+# mlops-assignment2
 mlops assign v2 

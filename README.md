@@ -2,9 +2,9 @@
 
 Fine-tuning `distilbert-base-cased` on UCSD Goodreads reviews for 8-class book genre classification. Training on Kaggle T4 GPU, metrics tracked on W&B, trained model published to Hugging Face Hub.
 
-**Course:** MLOps · PGD AI Program · IIT Jodhpur
+**Course:** MLOps · IIT Jodhpur
 **Instructor:** Dr. Hardik Jain
-**Author:** Rohit Patel (G25AIT2089)
+**Author:** Rohit Patel
 
 ---
 
@@ -57,9 +57,9 @@ Need three free accounts: Kaggle, Hugging Face, W&B.
    - `HF_TOKEN` from https://huggingface.co/settings/tokens (Write scope, not Read)
    - Tick "Attach to notebook" for both
 
-Then paste `train.py` into a fresh cell and Shift+Enter. Around 10-15 minutes start to finish.
+Then File > Import Notebook > upload `mlops_assignment2.ipynb` from this repo. Run All. Around 10-15 minutes start to finish.
 
-Change `HF_USERNAME` in the code to your own HF username before running.
+Change `HF_USERNAME` in the notebook to your own HF username before running.
 
 ---
 
@@ -97,7 +97,7 @@ print(model.config.id2label[preds])
 ## Files
 
 - `README.md` — this file
-- `train.py` — full training script
+- `mlops_assignment2.ipynb` — the Kaggle notebook that ran the pipeline (downloaded from the public Kaggle link above)
 - `requirements.txt` — Python dependencies
 - `eval_report.json` — per-class classification report (also logged as W&B Artifact)
 - `MLOps_Assignment2_Report_Rohit.pdf` — the report submitted on Moodle

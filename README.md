@@ -100,7 +100,7 @@ print(model.config.id2label[preds])
 - `mlops_assignment2.ipynb` — the Kaggle notebook that ran the pipeline (downloaded from the public Kaggle link above)
 - `requirements.txt` — Python dependencies
 - `eval_report.json` — per-class classification report (also logged as W&B Artifact)
-- `MLOps_Assignment2_Report_Rohit.pdf` — the report submitted on Moodle
+- `MLOps_Assignment2_Report_Rohit.pdf` — the report submitted on LMS
 
 ---
 
